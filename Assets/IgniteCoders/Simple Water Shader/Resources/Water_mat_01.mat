@@ -63,6 +63,7 @@ Material:
     - Vector1_7273530c27a34c9f8ee5723b84f96baa: 0.46
     - Vector1_dada42ebfac44076897b6de67441ba32: 0.3
     - _CircleRadius: 21.96
+    - _Displacement: 0.46
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
