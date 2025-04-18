@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class BounceWithObject : MonoBehaviour
 {
     [SerializeField] private string bounceTag;
     [SerializeField] private float bounceSpeed = 4f;
+    
+    public Action OnBounce;
     
     private void OnCollisionEnter(Collision collision)
     {
@@ -15,6 +18,7 @@ public class BounceWithObject : MonoBehaviour
             
             // Bounce upwards
             rb.linearVelocity = new Vector3(rb.linearVelocity.x, bounceSpeed, rb.linearVelocity.z);
+            OnBounce?.Invoke();
         }
     }
 }

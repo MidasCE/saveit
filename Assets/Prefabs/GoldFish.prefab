@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6715287581028179086}
   - component: {fileID: 1539207634187243504}
   - component: {fileID: 8743948502880694239}
+  - component: {fileID: 5362789559984617187}
   m_Layer: 0
   m_Name: GoldFish
   m_TagString: Untagged
@@ -165,3 +166,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bounceTag: Pan
   bounceSpeed: 4
+--- !u!114 &5362789559984617187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8239299185376875227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9829f10445644aa6be7a7abf261b4a81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectRenderer: {fileID: 8469692771790300317}
+  bounceWithObject: {fileID: 8743948502880694239}
